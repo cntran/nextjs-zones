@@ -6,7 +6,7 @@
       }
     },
     "builds": [
-      { "src": "frotend/about/package.json", "use": "@now/next" },
+      { "src": "frontend/about/package.json", "use": "@now/next" },
       { "src": "frontend/home/package.json", "use": "@now/next" }
     ],
     "routes": [

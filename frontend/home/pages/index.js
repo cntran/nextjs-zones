@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Home MicroApp
+          Home MicroApp - Update
         </h1>
 
         <p className={styles.description}>

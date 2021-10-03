@@ -6,11 +6,11 @@
       }
     },
     "builds": [
-      { "src": "about/package.json", "use": "@now/next" },
-      { "src": "home/package.json", "use": "@now/next" }
+      { "src": "frontend/about/package.json", "use": "@now/next" },
+      { "src": "frontend/home/package.json", "use": "@now/next" }
     ],
     "routes": [
-      { "src": "/about(.*)", "dest": "about$1" },
-      { "src": "(.*)", "dest": "home$1" }
+      { "src": "/about(.*)", "dest": "frontend/about$1" },
+      { "src": "(.*)", "dest": "frontend/home$1" }
     ]
   }
